@@ -40,7 +40,8 @@ export default defineConfig([{
     rules: {
         "react/prop-types": "off",
         "react/react-in-jsx-scope": "off",
-        "semi": ["error", "never"]
+        "semi": ["error", "never"],
+        "quotes": ["error", "single"]
     },
 
   files: ['**/*.{js,jsx,ts,tsx}'],
